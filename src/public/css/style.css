@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chatContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mensajesChat {
+    width: 207px;
+    border-radius: 5px;
+    height: auto;
+    border: solid blue 1px;
+}
+.newMessage{
+    background-color:coral;
+    box-shadow: 0 1px 1px grey;
+    margin: 5px;
+}
+.fecha{
+    font-size: 10px;
+    color: grey;
+}
+
+.buttonContainer{
+    display: flex;
+}
