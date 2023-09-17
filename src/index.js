@@ -25,7 +25,7 @@ const server = app.listen(PORT, ()=>{
 })
 
 //conexion con la BDD
-mongoose.connect("mongodb+srv://johnkevin:johnvega9@backend-ecommers.nnjzhpe.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://johnkevin:<password>@backend-ecommers.nnjzhpe.mongodb.net/?retryWrites=true&w=majority")
   .then(()=> console.log("BDD conectada"))  
   .catch(() => console.log("Error en conexion a BDD"))
 
